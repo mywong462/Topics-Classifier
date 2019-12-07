@@ -5,7 +5,7 @@ We experimented multiple common algorithm for text classification, including **D
 
 # Methodology
 For the aforementioned models except the Deep Learning Models (RNN), we interchangeably used word2vec to produce a word embedding and TF-IDF to produce sentence vectors to feed in the algorithm.
-The RNN models contains an embedding layer to come up with a self-trained embeddings, while one version of RNN contain an extra layer of Attention and and the other does not.
+The RNN models contains an embedding layer to come up with a self-trained embeddings, while one version of RNN contain an extra layer of Attention and the other does not.
 
 # Result
 RNN without Attention perform the best in our case. It archieves about an average of 0.85 accuracy. The detail results can be refered to the report.
